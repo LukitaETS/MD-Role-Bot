@@ -1,0 +1,27 @@
+{
+  "name": "bot-dm-rol-discord",
+  "version": "1.0.0",
+  "description": "Bot de Discord.js v14 para enviar mensajes privados a usuarios con un rol especifico, preparado para Render.com.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy:commands": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "render",
+    "slash-commands"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  }
+}
